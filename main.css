@@ -1,0 +1,106 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.class {
+  text-decoration: underline;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.header-left {
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.header-left a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-left :hover {
+color: rgb(18, 60, 244);
+text-decoration: none;
+}
+
+.header-right {
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.header-right a {
+  text-decoration: none; 
+  color: #000000;
+}
+
+.header-right :hover {
+  color: rgb(18, 60, 244);
+  text-decoration: none;
+  }
+
+.fade-container {
+  width: 100%;
+  height: calc(100% - 40px);
+  overflow: hidden;
+}
+
+#fade {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.video-links {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 16px;
+}
+
+.video-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.video-links ul li {
+  margin-bottom: 5px;
+}
+
+.video-links ul li a { 
+  color: #000000;
+  text-decoration: none;
+}
+
+.video-links ul li:hover {
+  background-color: rgb(192, 192, 192); 
+}
+
+.video-links ul li:hover a {
+  color: #000000; 
+}
+
+
+
+
+
+#video-player {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  transform: translateY(-50%);
+  width: 60%; 
+  border: 1px solid #000000; 
+}
